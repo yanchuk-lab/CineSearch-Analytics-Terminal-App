@@ -1,4 +1,4 @@
-# Cinema Search & Analytics Engine (CLI)
+# Cinema Search & Analytics Engine CLI(Command Line Interface)
 
 A professional Backend application developed in Python to demonstrate a robust data pipeline between **Relational (MySQL)** and **Non-Relational (MongoDB)** databases.
 
@@ -11,10 +11,19 @@ This Command Line Interface (CLI) tool bridges the gap between structured movie 
 
 ## Key Features
 - **Smart Search:** Filter movies by keyword, genre, or specific release years.
-- **Automated Logging:** Every search query is asynchronously logged into MongoDB as a nested JSON document.
-- **Data Insights:** A dedicated analytics module that displays the "Top 5 Frequent Queries" based on live MongoDB data.
-- **Professional Formatting:** Data is presented in clean, readable tables within the terminal.
+- **Automated Logging:** Every search query is asynchronously logged into MongoDB.
+- **Data Insights:** Analytics module that displays the "Top 5 Frequent Queries".
 
+## Terminal User Interface
+The application features a clean, professional CLI built with the `Rich` library, providing formatted tables and interactive menus.
+
+![Terminal Interface](terminal_scrin.png)
+*Example of the movie search results table and interactive main menu.*
+
+## Database Visualization (MongoDB Logs)
+![MongoDB Analytics](mongodb_screenshot.png)
+*Example of a search log document in MongoDB Compass.*
+  
 ## Database Visualization (MongoDB Logs)
 ![MongoDB Analytics](mongodb_screenshot.png)
 *Example of a search log document in MongoDB Compass, highlighting the storage of search parameters, result counts, and timestamps.*
