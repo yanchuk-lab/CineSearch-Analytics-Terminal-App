@@ -32,4 +32,4 @@ This Command Line Interface (CLI) tool bridges the gap between structured movie 
 5. Run the Application:
    python main.py
 
-Developed as a portfolio project to demonstrate Backend Architecture and Database Integration skills.
+*Developed as a portfolio project to demonstrate Backend Architecture and Database Integration skills.*
