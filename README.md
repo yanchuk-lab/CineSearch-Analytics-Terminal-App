@@ -17,7 +17,7 @@ This Command Line Interface (CLI) tool bridges the gap between structured movie 
 ## Terminal User Interface
 The application features a clean, professional CLI built with the `Rich` library, providing formatted tables and interactive menus.
 
-![Terminal Interface](.png)
+![Terminal Interface](terminal_scrin.png)
 *Example of the movie search results table and interactive main menu.*
 
 ## Database Visualization (MongoDB Logs)
