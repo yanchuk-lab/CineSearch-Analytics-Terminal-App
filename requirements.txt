@@ -1,0 +1,4 @@
+pymysql
+pymongo
+rich
+simple-term-menu
